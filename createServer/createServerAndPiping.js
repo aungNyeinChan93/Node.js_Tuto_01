@@ -1,6 +1,6 @@
 const http = require("http")
 const fs = require("fs");
-const { clear } = require("console");
+
 
 const myReadStr = fs.createReadStream("../readableStream/mytest01.txt","utf-8")
 
